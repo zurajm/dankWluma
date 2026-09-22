@@ -1,0 +1,25 @@
+{
+    "id": "dankWluma",
+    "name": "Wluma",
+    "description": "Adaptive brightness control - live wluma daemon state, per-output brightness and pause control",
+    "version": "1.0.0",
+    "license": "MIT",
+    "author": "mzuraj",
+    "icon": "wb_twilight",
+    "type": "widget",
+    "capabilities": [
+        "dankbar-widget",
+        "control-center"
+    ],
+    "dependencies": [
+        "wluma"
+    ],
+    "component": "./DankWluma.qml",
+    "settings": "./DankWlumaSettings.qml",
+    "requires_dms": ">=1.6.0",
+    "permissions": [
+        "process",
+        "settings_read",
+        "settings_write"
+    ]
+}
