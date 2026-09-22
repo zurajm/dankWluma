@@ -99,6 +99,19 @@ missing `wluma` binary is reported as a distinct, terminal state instead of a re
 bun test
 ```
 
+## Credits
+
+- [wluma](https://github.com/maximbaz/wluma) by Maxim Baz — the daemon doing the actual
+  work. Every brightness adaptation, prediction and training sample is its doing; this
+  plugin is a window and a set of controls onto it.
+- [DankClight](https://github.com/AvengeMedia/dms-plugins) by Avenge Media — the
+  first-party Clight plugin this project studied as the reference for DMS plugin
+  structure: the plugin-local singleton service registered through `qmldir`, the chip
+  idiom (our `WlumaChip.qml` is adapted from its `StatusChip.qml`), and the PluginComponent
+  surface wiring.
+- [DankMaterialShell](https://github.com/AvengeMedia/DankMaterialShell) by Avenge Media —
+  the shell and the plugin API this targets.
+
 ## License
 
 MIT
