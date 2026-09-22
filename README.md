@@ -3,6 +3,8 @@
 A [DankMaterialShell](https://danklinux.com) plugin that surfaces and controls the
 [wluma](https://github.com/maximbaz/wluma) adaptive-brightness daemon.
 
+![The Wluma panel: status chips, per-output sliders, pause controls](screenshot.png)
+
 wluma learns how bright you want each display to be for a given screen content and ambient
 light level, then keeps it there. This plugin shows what it is thinking and lets you steer it
 without leaving the shell.
